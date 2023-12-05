@@ -13,6 +13,7 @@ html body {
     width: 100vw;
     height: 100vh;
     background: #ffffffff;
+    overflow-x: hidden;
 }
 
 /* -----------------------------------------first nav-------------------------------------------- */
@@ -223,16 +224,120 @@ html body {
     background-color: #dadada;
 }
 
+/* -----------------------------------------------------------Holiday hall frame section------------------------------------- */
+.holidaywrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 4rem;
+    position: relative;
+
+}
+
+.wrapperheadinding {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: poppins;
+    font-size: 24px;
+    color: #111111;
+    margin-top: 10px;
+    padding: 1rem 0;
+
+}
+
+.wrapperimage {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapperimage img {
+    width: 100%;
+
+
+}
+
+.wrappercontent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
 
 
 
+.wrappercontent h3 {
+    font-size: 40px;
+    font-family: 'FontAwesome';
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 1rem 0;
 
 
+}
 
+.wrappercontent p {
+    text-align: center;
+    font-size: 16px;
+    font-family: poppins;
+    color: #111111;
+    padding: 1rem 0;
+    text-transform: capitalize;
 
+}
 
-/* =========================================== */
-.search__icon {
-    width: 1rem;
-    height: 1rem;
+.wrapperbutton button {
+    text-align: center;
+    background-color: #111111;
+    border: none;
+    font-size: 12px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #f5f5f5;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* =============== gift wrapper section ============================ */
+
+.giftwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 4rem;
+}
+
+.giftwrapperheading {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: poppins;
+    font-size: 24px;
+    color: #111111;
+    margin-top: 10px;
+    padding: 1rem 0;
+}
+
+.giftimages {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.giftimages img {
+    width: 100%;
+    height: 100%;
 }
