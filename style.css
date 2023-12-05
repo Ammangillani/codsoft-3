@@ -324,7 +324,7 @@ html body {
     font-size: 24px;
     color: #111111;
     margin-top: 10px;
-    padding: 1rem 0;
+    padding: 1rem 3rem;
 }
 
 .giftimages {
@@ -340,4 +340,114 @@ html body {
 .giftimages img {
     width: 100%;
     height: 100%;
+}
+
+/* ------------------------Fetured gift section----------------*/
+.feturedgift {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    position: relative;
+}
+
+.feturedheading {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: poppins;
+    font-size: 24px;
+    color: #111111;
+    margin-top: 10px;
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+
+.feturedwrapper {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+}
+
+.firstwrapper {
+    width: 50%;
+    height: 100%;
+
+}
+
+.firstwrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.feturedlayer {
+    font-size: 20px;
+    font-family: poppins;
+    color: #fff;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 4rem;
+    left: 3.5rem;
+}
+
+.secondwrapper {
+    width: 50%;
+    height: 100%;
+
+}
+
+.secondwrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.feturedlayer2 {
+    font-size: 20px;
+    font-family: poppins;
+    color: #fff;
+    /* margin-bottom: 10px; */
+    position: absolute;
+    bottom: 4rem;
+    right: 14rem;
+}
+
+.feturedlayer2 span {
+    margin-top: 10px;
+}
+
+.layerbutton button {
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #111111;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.layerbutton2 button {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #111111;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #dadada;
 }
