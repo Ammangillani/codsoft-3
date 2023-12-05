@@ -21,7 +21,7 @@ html body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #dadada;
+    background-color: #f5f5f5;
     position: relative;
     padding: 2px 3rem;
 }
@@ -29,7 +29,7 @@ html body {
 .navsvg {
     width: 50%;
     justify-content: baseline;
-    gap: 10px;
+    gap: 20px;
 }
 
 .navli {
@@ -78,7 +78,7 @@ html body {
     color: #111111;
     font-size: 16px;
     font-family: poppins;
-    font-weight: 400;
+    font-weight: 700;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -90,21 +90,48 @@ html body {
     justify-content: space-around;
 }
 
+.searchbar {
+    position: relative;
+}
+
+.searchbar span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.searchbar input {
+    width: 140px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    text-align: center;
+    border: none;
+}
+
 /*-----------------------------------------------------header slider--------------------------------------------- */
 .slider {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #dadada;
-    padding: 1rem 0;
+    background-color: #f5f5f5;
+    padding: 8px 0;
+    overflow: hidden;
     text-align: center;
+}
+
+.slider-text p {
     font-family: Poppins;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
-    line-height: 1rem;
-    overflow: hidden;
+}
+
+.slider-text a {
+    font-size: 12px;
+    font-family: poppins;
+    color: #111111;
 }
 
 .slider-text {
@@ -117,7 +144,7 @@ html body {
         transform: translateX(400%);
     }
 
-    50% {
+    0% {
         transform: translateX(100%);
 
     }
@@ -131,14 +158,70 @@ html body {
     display: block;
 }
 
+/*-------------------------------------------------------Hero section--------------------------------------- */
+.hero {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.herowrapper {
+    padding: 0 4rem;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
 
+.herowrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
+}
 
+.herolayer {
+    position: absolute;
+    top: 3rem;
+    left: 6rem;
+    gap: 10px;
+}
 
+.herolayer h3 {
+    font-size: 50px;
+    font-family: Josefin Sans;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 10px 0;
 
+}
 
+.herolayer p {
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 10px 0;
+    color: #fff;
+}
 
+.herolayer button {
+    width: 90px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f5f5f5;
+    color: #111111;
+    font-size: 12px;
+    font-family: poppins;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.herolayer button:hover {
+    background-color: #dadada;
+}
 
 
 

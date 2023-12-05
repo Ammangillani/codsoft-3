@@ -21,5 +21,5 @@ document.addEventListener("DOMContentLoaded", function () {
   showSlide(currentSlide);
 
   // Change the slide every 3 seconds
-  setInterval(nextSlide, 3000);
+  setInterval(nextSlide, 5000);
 });
