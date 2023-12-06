@@ -308,7 +308,7 @@ html body {
     cursor: pointer;
 }
 
-/* =============== gift wrapper section ============================ */
+/* ========================================================= gift wrapper section ============================ */
 
 .giftwrapper {
     display: flex;
@@ -394,7 +394,7 @@ html body {
 
 .carousel::-webkit-scrollbar-thumb {
     width: 4px;
-    background-color: #fff;
+    background-color: #dadada;
     border-radius: 30px;
 }
 
