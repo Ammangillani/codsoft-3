@@ -404,7 +404,7 @@ html body {
     font-weight: 700;
 }
 
-/* ------------------------Fetured gift section----------------*/
+/* -----------------------------------------------------------Fetured gift section---------------------------------------------------*/
 .feturedgift {
     display: flex;
     align-items: center;
@@ -473,7 +473,7 @@ html body {
     /* margin-bottom: 10px; */
     position: absolute;
     bottom: 4rem;
-    right: 14rem;
+    right: 18rem;
 }
 
 .feturedlayer2 span {
@@ -508,6 +508,87 @@ html body {
     padding: 10px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+button:hover {
+    background-color: #dadada;
+}
+
+/* -----------------------greatestgift------------- */
+
+.greatestgift {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.greatestgiftheading {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: poppins;
+    font-size: 28px;
+    color: #111111;
+    margin-top: 10px;
+    padding: 2rem 0;
+    text-transform: capitalize;
+}
+
+.greatestherowrapper {
+    position: relative;
+}
+
+.greatestherowrapper img {
+    width: 100%;
+}
+
+.greatestherowrapperlayer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    left: 0;
+}
+
+.greatestherowrapperlayer h3 {
+    font-size: 50px;
+    font-family: Josefin Sans;
+    text-transform: uppercase;
+    color: #111;
+    margin: 20px 0;
+
+}
+
+.greatestherowrapperlayer span {
+    font-size: 14px;
+    font-family: poppins;
+    text-transform: capitalize;
+
+}
+
+.wrapperbuttonlayer button {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    background-color: #111;
+    border: none;
+    font-size: 12px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
 button:hover {
