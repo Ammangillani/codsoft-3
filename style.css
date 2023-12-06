@@ -72,7 +72,7 @@ html body {
     justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 18px;
+    gap: 14px;
 }
 
 .navigationli a {
@@ -166,6 +166,7 @@ html body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .herowrapper {
@@ -234,6 +235,7 @@ html body {
     padding: 4rem 4rem;
     position: relative;
 
+
 }
 
 .wrapperheadinding {
@@ -245,13 +247,14 @@ html body {
     font-size: 24px;
     color: #111111;
     margin-top: 10px;
-    padding: 1rem 0;
+    padding: 2rem 0;
 
 }
 
 .wrapperimage {
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 .wrapperimage img {
@@ -324,7 +327,7 @@ html body {
     font-size: 24px;
     color: #111111;
     margin-top: 10px;
-    padding: 1rem 3rem;
+    padding: 2rem 3rem;
 }
 
 .giftimages {
@@ -334,12 +337,71 @@ html body {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    cursor: pointer;
 
 }
 
 .giftimages img {
     width: 100%;
     height: 100%;
+}
+
+/* -------------------------------------------------trending gifts----------------------------------------------------- */
+.trendingcarousel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 4rem 0;
+}
+
+.caruselheading {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: poppins;
+    font-size: 30px;
+    color: #111111;
+    margin-top: 10px;
+    padding: 2rem 0;
+    text-transform: capitalize;
+}
+
+.carousel {
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 10px;
+    padding-left: 5rem;
+    cursor: pointer;
+}
+
+.caruselimages img {
+    width: 380px;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.carousel::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    /* Set your desired width */
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    width: 4px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.caruselimages figcaption {
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: 700;
 }
 
 /* ------------------------Fetured gift section----------------*/
@@ -358,10 +420,10 @@ html body {
     justify-content: flex-start;
     align-items: center;
     font-family: poppins;
-    font-size: 24px;
+    font-size: 28px;
     color: #111111;
     margin-top: 10px;
-    padding: 1rem 0;
+    padding: 2rem 0;
     text-transform: capitalize;
 }
 
