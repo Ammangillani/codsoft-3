@@ -25,16 +25,19 @@ html body {
     background-color: #f5f5f5;
     position: relative;
     padding: 2px 3rem;
+
 }
 
 .navsvg {
     width: 50%;
     justify-content: baseline;
     gap: 20px;
+    cursor: pointer;
 }
 
 .navli {
     width: 50%;
+    cursor: pointer;
 }
 
 .navli ul {
@@ -48,6 +51,8 @@ html body {
     font-family: Poppins;
     font-weight: 600;
     color: #111111;
+
+
 }
 
 /* -----------------------------------------------navigation bar----------------------------------------------- */
@@ -61,6 +66,7 @@ html body {
 
 .nikesvg {
     width: 30%;
+    cursor: pointer;
 }
 
 .navigationli {
@@ -89,6 +95,7 @@ html body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .searchbar {
@@ -593,4 +600,120 @@ button:hover {
 
 button:hover {
     background-color: #dadada;
+}
+
+/* ---------------------------------------------------footer------------------------- */
+footer {
+    background-color: #111111;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: #111111;
+    padding: 2rem;
+    font-family: poppins;
+}
+
+.footercontent {
+    width: 100%;
+}
+
+.footercontent h6 {
+    font-size: 12px;
+    font-family: poppins;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footercontent p {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #7e7e7e;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.footercontent p:hover {
+    color: #fff;
+}
+
+.footericon {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* margin: 10px; */
+    gap: 10px;
+}
+
+.footericon span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #7e7e7e;
+    color: #111;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.footericon span:hover {
+    background-color: #fff;
+}
+
+.footerguidlines {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: poppins;
+    color: #7e7e7e;
+    font-size: 14px;
+    gap: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+
+.footerguidlines p:hover {
+    color: #fff;
+}
+
+.footerend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    color: #f5f5f5;
+    padding: 1rem 0;
+    margin-top: 10px;
+
+}
+
+.location {
+    display: flex;
+    gap: 10px;
+
+}
+
+.location span {
+    font-size: 12px;
+    font-family: poppins;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.footerflex {
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #777;
+    font-size: 14px;
 }
